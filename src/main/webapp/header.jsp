@@ -20,7 +20,7 @@
     <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
 
         <!-- Sidebar - Brand -->
-        <a class="sidebar-brand d-flex align-items-center justify-content-center" href="list.jsp">
+        <a class="sidebar-brand d-flex align-items-center justify-content-center" href="/user/list">
             <div class="sidebar-brand-icon rotate-n-15">
                 <i class="fas fa-laugh-wink"></i>
             </div>
@@ -34,7 +34,7 @@
         <li class="nav-item active">
             <a class="nav-link" href="<c:url value="/user/list"/>">
                 <i class="fas fa-fw fa-tachometer-alt"></i>
-                <span>UserCRUD</span></a>
+                <span>Lista Użytkowników</span></a>
         </li>
     </ul>
 
