@@ -44,7 +44,7 @@
         <div class="card-body">
             <div class="table-responsive">
                 <table class="table table-bordered" id="dataTable">
-                    <form method="post" action="/user/edit">
+                    <form method="post" action="/user/edit?id=${user.id}">
                         <tbody>
                         <tr>
                             <td>Nazwa</td>

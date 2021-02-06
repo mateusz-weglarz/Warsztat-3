@@ -32,7 +32,7 @@
 
         <!-- Nav Item - Dashboard -->
         <li class="nav-item active">
-            <a class="nav-link" href="<c:url value="list.jsp"/>">
+            <a class="nav-link" href="<c:url value="/user/list"/>">
                 <i class="fas fa-fw fa-tachometer-alt"></i>
                 <span>UserCRUD</span></a>
         </li>
