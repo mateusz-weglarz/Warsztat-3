@@ -50,19 +50,19 @@
                             <td>Nazwa</td>
                         </tr>
                         <tr>
-                            <td><input type="text" name="userName" value="${user.userName}"></td>
+                            <td><input type="text" name="userName" value="${user.userName}" placeholder="Nazwa użytkownika"></td>
                         </tr>
                         <tr>
                             <td>Email</td>
                         </tr>
                         <tr>
-                            <td><input type="text" name="email" value="${user.email}"></td>
+                            <td><input type="text" name="email" value="${user.email}" placeholder="Email użytkownika"></td>
                         </tr>
                         <tr>
                             <td>Hasło</td>
                         </tr>
                         <tr>
-                            <td><input type="text" name="password" value="Hasło użytkownika"></td>
+                            <td><input type="text" name="password" placeholder="Hasło użytkownika"></td>
                         </tr>
                         </tbody>
                         <tfoot>
